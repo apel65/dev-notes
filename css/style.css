@@ -78,3 +78,8 @@ ul li, p {
 /* =============================== 
         Responsive part
 =================================*/
+@media (max-width: 568px){
+    .navbar-brand img{
+        height: 30px;
+    }
+}

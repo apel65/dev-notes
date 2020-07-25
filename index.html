@@ -20,7 +20,6 @@
             </a>
             <div class="ml-auto navbarNav">
                 <a href="#">GitHub</a>
-                <a href="#">Medium</a>
             </div>
         </div>
     </nav>
@@ -48,19 +47,40 @@
 
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-3 mr-3 module">
+            <div class="col-md-3 mr-md-2 mb-2 module">
+                <a href="#module22">
+                    <h4>Module <span>22</span></h4>
+                    <p>React Core Fundamental Concepts</p>
+                </a>
+            </div>
+            <div class="col-md-3 mr-md-2 mb-2 module">
+                <a href="#module28">
+                    <h4>Module <span>28</span></h4>
+                    <p>Simple React spa with multiple components</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-2 module">
+                <a href="#module37">
+                    <h4>Module <span>not</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                </a>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3 mr-md-2 mb-2  module">
                 <a href="#module33">
                     <h4>Module <span>33</span></h4>
                     <p>Simple react authentication using firebase authentication</p>
                 </a>
             </div>
-            <div class="col-md-3 mr-3 module">
+            <div class="col-md-3 mr-md-2 mb-2  module">
                 <a href="#module35">
                     <h4>Module <span>35</span></h4>
                     <p>Integrate auth, custom hook, guard shipment route.</p>
                 </a>
             </div>
-            <div class="col-md-3 mr-3 module">
+            <div class="col-md-3 mb-2  module">
                 <a href="#module37">
                     <h4>Module <span>37</span></h4>
                     <p>Firebase hosting and red onion <span class="text-warning">Assignment</span></p>
@@ -68,22 +88,22 @@
             </div>
         </div>
 
-        <div class="row d-flex justify-content-center mt-3">
-            <div class="col-md-3 mr-3 module">
-                <a href="/p-hero/module37.html">
-                    <h4>Module <span>0</span></h4>
-                    <p>Lorem inpsum doller emit. lorem inpusum.</p>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3 mr-md-2 mb-2  module bg-primary">
+                <a href="#react-error">
+                    <h4>React Problem <span>R</span></h4>
+                    <p>React all error and install problem solving</p>
                 </a>
             </div>
-            <div class="col-md-3 mr-3 module">
-                <a href="/p-hero/module37.html">
-                    <h4>Module <span>0</span></h4>
-                    <p>Lorem inpsum doller emit. lorem inpusum.</p>
+            <div class="col-md-3 mr-md-2 mb-2  module bg-primary">
+                <a href="#firebase-error">
+                    <h4>Firebase Problem <span>F</span></h4>
+                    <p>Firebase all error and install problem solving</p>
                 </a>
             </div>
-            <div class="col-md-3 mr-3 module">
+            <div class="col-md-3 mb-2 module">
                 <a href="/p-hero/module37.html">
-                    <h4>Module <span>0</span></h4>
+                    <h4>Module <span>not</span></h4>
                     <p>Lorem inpsum doller emit. lorem inpusum.</p>
                 </a>
             </div>
@@ -133,6 +153,95 @@
                 <li>Create loading system.</li>
                 <li>Active checkout after select food.</li>
             </ul>   
+        </div>
+    </div>
+
+    <div class="self-container mt-5">
+        <div id="react-error">
+            <h3>React নিয়ে কিছু সমস্যা এবং তার সমাধান</h3>
+            <hr>
+            <!-- STEP-1  -->
+            <h5 class="text-primary my-4">Step-1:</h5>
+            <p>যদি React ইনস্টল করতে সমস্যা হয় । অর্থাৎ নিচের তিনটা কমান্ড দিলে যদি কাজ না হয়-- কমান্ড লাইনে এরর দেখায় ।</p>
+            <ul>
+                <li>npx create-react-app my-app</li>
+                <li>cd my-app</li>
+                <li>npm start</li>
+            </ul>
+            <p>তাহলে নিচের কাজগুলো করে দেখব।</p>
+            <ul>
+                <li>VS code ওপেন করা থাকলে সেটাকে ক্লোজ কর</li><br>
+                <li>কম্পিউটারের স্টার্ট মেনুতে গিয়ে, vs code লিখো। তবে vs code ওপেন না করে বরং Right ক্লিক কর । তারপর Run as Administrator এ ক্লিক করো ।</li><br>
+                <li>তারপর vs code দিয়েই যেই ফোল্ডারে তোমার প্রজেক্টগুলো আছে সেই ফোল্ডার ওপেন করো। খেয়াল করে দেখো সেখানে my-app নামে কোনো ফোল্ডার আছে কি না । থকলে সেটাকে রিমুভ করে দাও। রিমুভ করতে না পারলে নিচের কমান্ডগুলোতে যেখানে my-app লেখা থাকবে সেখানে my-app2 বা my-app3 এইরকম লিখো।</li><br>
+                <p>এখন এক এক করে নিচের কমান্ডগুলো দাও।</p>
+                <ul>
+                    <li>npm install -g create-react-app</li>
+                    <li>create-react-app my-app</li>
+                    <li>cd my-app</li>
+                    <li>npm start</li>
+                </ul>
+            </ul>
+            <p><strong>Note: মাঝেমধ্যে npx create-react-app my-app কমান্ডটি দিলে কাজ না করলে তখন জাস্ট npx বাদ দিয়ে create-react-app my-app কমান্ড দিবো।</strong></p>
+            <!-- STEP-2 -->
+            <h5 class="text-primary my-4">Step-2:</h5>
+            <P>যদি রিয়েক্ট ইনস্টল করতে গিয়ে নিচের মতো সমস্যা দেখায় তাহলে পরবর্তী ইনস্ট্রাকশন মেনে কমান্ডগুলো রান করে দেখতে পারো--</P>
+            <img class="img-fluid" src="./image/react-error-solution/react-p1.png" alt="">
+            <div class="my-5"></div>
+            <ul>
+                <li>npm cache clean --force</li>
+                <li>npm install --save</li>
+            </ul>
+            <br>
+            অথবা --
+            <ul>
+                <li>npm cache clean --force</li>
+                <li>npm install -g create-react-app</li>
+            </ul>
+            <p><strong>If propble is not solve. Do this, </strong> <br>
+            just uninstall node js and delete all its file in local and all ther node modules and npm cache folder. directory will be 
+            <br>C:\Users\Apel-mahmud-65\AppData\Roaming
+            <br>(AppData folder may be hidden in your case, so unhide this.)
+            <br>And then reinstall node js again.</p>
+             <!-- STEP-3  -->
+            <h5 class="text-primary my-4">Step-3:</h5>
+            <p>তুমি যদি গিটহাব থেকে git repository ডাউনলোড অথবা ক্লোণ করো তাহলে তোমাকে অবশ্যই টার্মিনাল ওপেন করে নিচের কমান্ডগুলো রান করতে হবে।</p>
+            <p>1. npm install</p>
+            <p>2. npm start</p>
+        </div>
+    </div>
+
+    <div class="self-container mt-5">
+        <div id="firebase-error">
+            <h3>Firebase নিয়ে কিছু সমস্যা এবং তার সমাধান</h3>
+            <hr>
+            <!-- STEP-1  -->
+            <h5 class="text-primary my-4">Step-1:</h5>
+            <p>যদি কোনো কারণে তোমার প্রযেক্ট ফোল্ডারে Firebase ইনস্টল করতে সমস্যা হয় । তাহলে, নিচের ছবিতে দেওয়া কমান্ডগুলো চালিয়ে চেষ্টা করে দেখতে পারো।</p>
+            <p>1. npm cache clean --force</p>
+            <p>2. npm update</p>
+            <img src="./image/firebase-error-solution/error-solve1.jpg" alt="" class="img-fluid">
+            <p class="mt-3">তারপর আগের মতো Firebase এর কমান্ডটি চালাও</p>
+            <p>npm install --save firebase</p>
+            <p class="text-secondary"><em>* in the 1st time npm install -g firebase-tools</em></p>
+        </div>
+    </div>
+
+    <div class="self-container mt-5">
+        <div id="module22">
+            <h3>(22) React Core Fundamental Concepts.</h3>
+            <hr>
+            <p><strong>UseEffect: </strong> এটা মূলত ডাটা লোড করার জন্য ব্যবহার করা হয়। তাছাড়া জাভাস্ক্রিপ্ট -এ বাইরে থেকে ডাটা লোড করার জন্য এই UseEffect ব্যবহার করা হয়।</p> 
+        </div>
+    </div>
+
+    <div class="self-container mt-5">
+        <div id="module28">
+            <h3>(28) Simple React spa with multiple components</h3>
+            <hr>
+            <p><strong>Event Handler:</strong> যেখানে state use করা হয় সেখান থেকে event handler use করা উচিত।</p> 
+            <p><strong>toFixed and Number:</strong> যখন কোনো একটা সংখ্যা অনেকগুলো দশমিক নিয়ে হয় তখন সেই সংখ্যাটার ২ দশমিক পর্যন্ত নিতে চাইলে toFixed(2) এটা দিতে হয়। toFixed() করলে সংখ্যাটা বা নাম্বারটা স্ট্রিং হয়ে যায় তখন আবার নাম্বারে কনভার্ট করতে হয় । Number(). বা Number(toFixed(2))</p>
+            <p>faveIcon: React App এ কিভাবে faveicon add করতে হয় তা জেনেছি। </p>
+            <p><strong>useState():</strong> useState( )  ব্যবহার করা হয় সাধারণত কোনো ডাটা রাখার জন্য । এবং সেই ডাটা পরবর্তীতে useState এর function কলের মাধমে ব্যবহার করা হয় । </p>
         </div>
     </div>
 
